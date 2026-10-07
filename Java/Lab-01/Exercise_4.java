@@ -18,7 +18,7 @@ public class Exercise_4 {
                     isValid = true;
                 }
             }
-            catch (Exception error_msg) {
+            catch (NumberFormatException error_msg) {
                 isValid = false;
             }
         }
