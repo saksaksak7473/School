@@ -6,7 +6,7 @@ public class Exercise_5 {
         if (number <= 3) return true;
         if (number % 2 == 0) return false;
 
-        for (int i = 3; i * i <= number; i += 2) {
+        for (int i = 3; i * i <= number; i += 2) { // Basically, numbers start from 5, 7, 9, 11, 13, 15, 17, ...
             if (number % i == 0) return false;
         }
         // Ex: i = 5 => i * i = 25 and 25 is modulus of i = 5
