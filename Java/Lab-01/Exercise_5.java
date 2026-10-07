@@ -31,7 +31,7 @@ public class Exercise_5 {
                 System.out.println(number + " is not a Prime number.");
             }
         }
-        catch (Exception error_msg) {
+        catch (NumberFormatException error_msg) {
             System.out.println("Invalid Number!");
         }
     }
