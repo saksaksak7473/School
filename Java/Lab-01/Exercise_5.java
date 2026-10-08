@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Exercise_5 {
     public static boolean isPrime(int number) {
-        for (int i = 2; i * i <= number; i ++) {
+        for (int i = 2; i < number; i ++) {
             if (number % i == 0) {
                 return false;
             }
