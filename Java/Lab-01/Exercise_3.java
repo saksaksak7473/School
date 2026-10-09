@@ -23,7 +23,7 @@ public class Exercise_3 {
             if (max <= numbers.get(i)) {max = numbers.get(i);}
         }
 
-        System.out.print("Among all the five input numbers " + numbers + ", min is " + min + " and max is " + max + ".");
-
+        System.out.print("Among all the five input numbers " + numbers);
+        System.out.print(", min is " + min + " and max is " + max + ".");
     }
 }
